@@ -3,8 +3,8 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/Index.razor"
+      "dest": "/index.html"
     }
   ],
-  "outputDirectory": "bin/Release/net8.0/publish/wwwroot"
+  "outputDirectory": "wwwroot"
 }
