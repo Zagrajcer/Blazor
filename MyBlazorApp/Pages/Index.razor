@@ -1,0 +1,154 @@
+@page "/"
+
+
+<!-- Custom CSS for this page -->
+<style>
+    .page-content {
+        background: linear-gradient(135deg, #e0f2ff 0%, #ffffff 100%);
+        font-family: Arial, sans-serif;
+        min-height: 100vh;
+    }
+    .page-content header h1 {
+        color: #2a2a72;
+        font-size: 2.5rem;
+    }
+    .page-content nav {
+        background: #2a2a72;
+        color: #fff;
+        padding: 1rem;
+        border-radius: 8px;
+        margin-bottom: 1.5rem;
+    }
+    .page-content nav h1 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+    .page-content nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 1.5rem;
+    }
+    .page-content nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.2s;
+    }
+    .page-content nav ul li a:hover {
+        color: #ffb347;
+    }
+    .page-content main {
+        background: #fff;
+        border-radius: 8px;
+        padding: 2rem;
+        box-shadow: 0 2px 16px rgba(0,0,0,0.10);
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .about-flex {
+        display: flex;
+        align-items: flex-start;
+        gap: 2rem;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
+    .about-text {
+        flex: 1 1 250px;
+    }
+    .about-photo {
+        flex: 0 0 auto;
+        max-width: 200px;
+    }
+    .about-photo img {
+        width: 180px;
+        height: 220px;
+        object-fit: cover;
+        border-radius: 20px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        margin-top: 0;
+    }
+    .page-content footer {
+        margin-top: 2rem;
+        padding: 1rem;
+        background: #2a2a72;
+        color: #fff;
+        border-radius: 8px;
+        text-align: center;
+    }
+    .page-content ul.inner-list {
+        list-style: disc;
+        margin-left: 2rem;
+        display: block;
+        gap: 0;
+    }
+</style>
+
+<div class="page-content">
+<header>
+    <h1>Szymon Albrycht</h1>
+    <h2>Student I roku Informatyki na Uniwersytecie Społecznej Akademi Nauk.</h2>
+</header>
+<nav>
+    <h1>NAWIGACJA</h1>
+    <ul>
+        <li><a href="#">Strona główna</a></li>
+        <li><a href="#ja">O mnie</a></li>
+        <li><a href="#doswiadczenie">Doświadczenie</a></li>
+        <li><a href="#projekty">Projekty</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
+</nav>
+<main>
+    <section id="ja">
+        <h2>O mnie</h2>
+        <div class="about-flex">
+            <div class="about-photo">
+                <!-- Place zdj.jpg in wwwroot folder -->
+                <img src="zdj.jpg" alt="Zdjęcie Szymona" />
+            </div>
+            <div class="about-text">
+                <p>Cześć, nazywam się Szymon i tak jak napisałem wyżej jestem studentem I roku studiów na uniwersytecie Społecznej Akademii Nauk.</p>
+                <p>Ukończyłem technikum o profilu Informatycznym w "Zespół Szkół i Placówek Oświatowych w Nysie: ZSiPO w Nysie". Posiadam również zawód Informatyka, który również zdobyłem w tej placówce.</p>
+            </div>
+        </div>
+    </section>
+    <section id="doswiadczenie">
+        <h2>Doświadczenie</h2>
+        <ul>
+            <li id="wazne">Montaż i budowa komputera</li>
+            <li id="wazne">Obsługa wielu programów takich jak:
+                <ul class="inner-list">
+                    <li>MS Office</li>
+                    <li>Visual Studio</li>
+                    <li>AutoCAD</li>
+                    <li>Photoshop</li>
+                    <li>GIMP</li>
+                </ul>
+            </li>
+            <li id="wazne">Programowanie w językach:
+                <ul class="inner-list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="projekty">
+        <h2>Projekty</h2>
+        <ul>
+            <li>Strona internetowa w HTML i CSS</li>
+            <li>Prosta gra w Javie</li>
+            <li>Prosta aplikacja w C#</li>
+        </ul>
+    </section>
+</main>
+<footer>
+    <section id="kontakt">
+        <h1>Dane kontaktowe:</h1>
+        <p>Email: 122692@student.san.edu.pl</p>
+    </section>
+    <p>Szymon Albrycht 122692</p>
+</footer>
+</div>
