@@ -1,0 +1,10 @@
+{
+  "builds": [],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/Index.razor"
+    }
+  ],
+  "outputDirectory": "bin/Release/net8.0/publish/wwwroot"
+}

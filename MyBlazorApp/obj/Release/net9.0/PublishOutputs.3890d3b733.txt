@@ -1,0 +1,2 @@
+C:\Users\Szymon\OneDrive - Społeczna Akademia Nauk\Dokumenty\GitHub\Blazor\MyBlazorApp\bin\Release\net9.0\publish\vercel.json
+C:\Users\Szymon\OneDrive - Społeczna Akademia Nauk\Dokumenty\GitHub\Blazor\MyBlazorApp\bin\Release\net9.0\publish\web.config
